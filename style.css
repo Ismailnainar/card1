@@ -1,0 +1,49 @@
+*{
+	padding: 0;
+	margin: 0;
+	background-color: rgb(217, 217, 217);
+}
+.container{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+span{
+	color: #ff3333;
+}
+img{
+	width: 70%;
+	border-radius: 50%;
+	border: 5px solid white;
+}
+h2,pre{
+	padding-bottom:15px;
+	
+}
+.content{
+	text-align: center;
+	justify-content: center;
+}
+.team-row{
+	width: 100%;
+	display: flex;
+/*	justify-content: space-between;*/
+	flex-wrap: wrap;
+	text-align: center;
+	
+}
+.team-col{
+	width: 20%;
+	padding: 80px;
+}
+.team-card{
+	width: 129%;
+	
+	
+	padding: 20px;
+
+}
+pre{
+	font-family: 'Fira Sans Condensed', sans-serif;
+	color: gray;
+}
